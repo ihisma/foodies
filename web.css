@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap');
+header {
+   display: inline;
+}
+h1{
+   text-align: center;
+   font-family: 'Tiro Gurmukhi';
+}
+
+p,ol,li{
+   text-align: justify;
+   margin: 15px 15px 15px 15px;
+   font-family: 'Tiro Gurmukhi';
+
+}
+body {
+   font-family: 'Tiro Gurmukhi';
+   margin: 0px;
+   padding: 20px;
+   background-color: white;
+
+}
+ 
+h2 {
+   color: black;
+   font-size: 18px;
+   font-family: 'Tiro Gurmukhi';
+}
+ 
+h3 {
+   color: #890F0D;
+   display: inline;
+}
+ 
+footer {
+   padding: 10px;
+   color: white;
+   background-color: #890F0D;
+}
+
+.card{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+.jumbotron {
+   
+   padding: 20px;
+   background-color: #890F0D;
+   
+   color: white;
+   margin: 0px;
+}
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+nav {
+   background-color: #890F0D;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+main {
+   padding: 0px;
+}
+@media screen and (max-width: 1000px) {
+   #content,
+   body,p,ol,li{
+       width: 100%;
+       padding: 0;
+   }
+}
+.container{
+         width: 100%;
+         min-width: 200px;
+         border: 4px solid ghostwhite;
+         padding: 0px;
+         float: center;
+         margin-left: auto;
+         margin-right: auto;
+         background-color: #EEEBDD;
+      }
